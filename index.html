@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-------|| header part start here ||------->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#" style="font-size: 45px; color: #fff; font-weight: 700;">
+                    DigTing
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-------|| header part end here ||------->
+
+    <!-------|| Banner part start here ||------->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="bannerText">
+                        <h1>Our goal is your business <span class="highLight">success.</span></h1>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti est delectus id assumenda
+                            a placeat magnam modi, debitis molestiae, unde, quidem quaerat nihil nulla! Nostrum.
+                        </p>
+                        <span><a href="#">GET TO KNOW US</a></span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bannerImage">
+                        <img src="images/banner_01.png" alt="banner Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------|| Banner part end here ||------->
+
+    <!-------|| sitePerformance part start here ||------->
+    <section id="sitePerformance">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="text">
+                        <h3>Check Your Site Performance</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam magnam magni ex error
+                            tempore veniam, tenetur similique tempora, delectus natus placeat, rerum sapiente doloremque
+                            nisi.
+                        </p>
+                        <form>
+                            <input type="url" placeholder="Type website url">
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit">Check Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------|| header part end here ||------->
+
+    <!-------|| header part start here ||------->
+    <!-------|| header part end here ||------->
+
+
+
+    <div class="container">
+        <div class="videoContainer">
+            <div id="loading"></div>
+            <video  id="video" width="100%">
+                <source
+                    src="https://icecube-eu-292.icedrive.io/download?p=AKVCPfQ2y68m.Q_vL9ac14m.c.khnsHrgCAhvbH5LWowpzW3Ihg_oNhqDssXUsEcvaY7uDPvFwWVg5BMtyTaQuVal9BgHlte5wY_rlyjpfoelfwvUHvrxNfAZCzVVY0nnIVlQ.KX0x41xz6B2oyD2yH1ixP_nCX2aWNqAfytjU6EqMlJvneMAJMyNvhaU8rN"
+                    type="video/mp4">
+            </video>
+            <div id="videoControls">
+                <div id="progressbar">
+                    <div id="poregressWidht"></div>
+                </div>
+                <div class="videoControsButton">
+                    <div class="vButton">
+                        <button id="playAndPause"><i id="playIcon" class="fa fa-play" aria-hidden="true"></i></button>
+                        <input class="slider" id="volume" type="range" minlength="0" value="40" maxlength="100">
+                    </div>
+                    <label id="timer" for="progress" role="timer">0 sec</label>
+                    <div class="vButton">
+                        <div class="vButton">
+                            <button id="settings"><i class="fa fa-cog" aria-hidden="true"></i></button>
+                            <ul>
+                                <li><button id="speedValue-0.25" value="0.25">0.25x</button></li>
+                                <li><button id="speedValue-0.50" value="0.50">0.50x</button></li>
+                                <li><button id="speedValue-0.75" value="0.75">0.75x</button></li>
+                                <li><button id="speedValue-normal" value="1.00">Normal</button></li>
+                                <li><button id="speedValue-1.25" value="1.25">1.25x</button></li>
+                                <li><button id="speedValue-1.50" value="1.50">1.50x</button></li>
+                                <li><button id="speedValue-1.75" value="1.75">1.75x</button></li>
+                                <li><button id="speedValue-2.00" value="2.00">2.00x</button></li>
+                                <li><button id="speedValue-4.00" value="4.00">4.00x</button></li>
+                            </ul>
+                        </div>
+                        <button id="fullscreen"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="output"></div>
+
+
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
